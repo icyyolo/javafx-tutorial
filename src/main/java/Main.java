@@ -27,7 +27,7 @@ public class Main extends Application {
 
         AnchorPane mainLayout = new AnchorPane();
         mainLayout.getChildren().addAll(scrollPane, userInput, sendButton);
-        
+
         stage.setScene(scene);
         stage.show();
     }
