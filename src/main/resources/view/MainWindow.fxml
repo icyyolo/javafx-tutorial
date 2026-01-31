@@ -15,7 +15,7 @@
     <children>
         <TextField fx:id="userInput"
                    layoutY="558.0"
-                   onAction="#handleUserInput"
+                   onKeyPressed="#handleKeyPressed"
                    prefHeight="41.0"
                    prefWidth="324.0"
                    AnchorPane.bottomAnchor="1.0" />
